@@ -28,7 +28,9 @@ class Booking(Base):
     description: Mapped[str | None] = mapped_column(Text, nullable=True)
     amount: Mapped[float] = mapped_column(Float, nullable=False)
     status: Mapped[BookingStatus] = mapped_column(
-        Enum(BookingStatus), default=BookingStatus.PENDING, index=True
+        Enum(BookingStatus, values_callable=lambda x: [e.value for e in x], name="bookingstatus"),
+        default=BookingStatus.PENDING,
+        index=True,
     )
     delivery_url: Mapped[str | None] = mapped_column(String(500), nullable=True)
     created_at: Mapped[datetime] = mapped_column(DateTime(timezone=True), server_default=func.now())
