@@ -8,11 +8,24 @@ SkillSwap AI is **not** a Fiverr clone. Creators showcase proof of skill through
 
 ## Screenshots
 
-| Landing | API (Railway) |
-| --- | --- |
-| ![Landing](docs/screenshots/landing.png) | ![API root](docs/screenshots/api-root.png) |
+| Landing | Login | Register |
+| --- | --- | --- |
+| ![Landing](docs/screenshots/landing.png) | ![Login](docs/screenshots/login.png) | ![Register](docs/screenshots/register.png) |
 
-> Live app: [Frontend](https://skillswap-ai-ecru.vercel.app) · [API](https://skillswap-ai-api-production.up.railway.app) · [Docs](https://skillswap-ai-api-production.up.railway.app/docs)
+| Creator dashboard | AI Portfolio Builder | Portfolio |
+| --- | --- | --- |
+| ![Creator dashboard](docs/screenshots/creator-dashboard.png) | ![AI Builder](docs/screenshots/ai-builder.png) | ![Portfolio](docs/screenshots/portfolio.png) |
+
+| Client dashboard | Post job | Browse creators |
+| --- | --- | --- |
+| ![Client dashboard](docs/screenshots/client-dashboard.png) | ![Post job](docs/screenshots/post-job.png) | ![Browse creators](docs/screenshots/browse-creators.png) |
+
+| Gigs | API docs |
+| --- | --- |
+| ![Gigs](docs/screenshots/gigs.png) | ![API docs](docs/screenshots/api-docs.png) |
+
+Live demo: [skillswap-ai-ecru.vercel.app](https://skillswap-ai-ecru.vercel.app)
+
 
 ---
 
