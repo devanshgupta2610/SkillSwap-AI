@@ -1,11 +1,11 @@
 import { FormEvent, useState } from 'react'
-import { useMutation, useQuery, useQueryClient } from '@tanstack/react-query'
+import { useMutation, useQuery } from '@tanstack/react-query'
 import { useNavigate, useParams } from 'react-router-dom'
 import toast from 'react-hot-toast'
 import { bookingApi, clientApi, reviewApi } from '../../services/endpoints'
 import { getErrorMessage } from '../../services/api'
 import { Button } from '../../components/ui/Button'
-import { Input, Label, Textarea } from '../../components/ui/Input'
+import { Input, Label } from '../../components/ui/Input'
 import { Card } from '../../components/ui/Card'
 import { PageSkeleton } from '../../components/ui/Skeleton'
 
@@ -13,7 +13,6 @@ export default function CreatorPublicProfilePage() {
   const { id } = useParams()
   const creatorId = Number(id)
   const navigate = useNavigate()
-  const qc = useQueryClient()
   const { data, isLoading } = useQuery({
     queryKey: ['creator-public', creatorId],
     queryFn: () => clientApi.creatorProfile(creatorId),
