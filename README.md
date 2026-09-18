@@ -8,11 +8,11 @@ SkillSwap AI is **not** a Fiverr clone. Creators showcase proof of skill through
 
 ## Screenshots
 
-| Landing | Creator dashboard | AI Portfolio Builder |
-| --- | --- | --- |
-| ![Landing placeholder](docs/screenshots/landing.png) | ![Dashboard placeholder](docs/screenshots/creator-dashboard.png) | ![AI Builder placeholder](docs/screenshots/ai-builder.png) |
+| Landing | API (Railway) |
+| --- | --- |
+| ![Landing](docs/screenshots/landing.png) | ![API root](docs/screenshots/api-root.png) |
 
-> Add real screenshots under `docs/screenshots/` after first local run.
+> Live app: [Frontend](https://skillswap-ai-ecru.vercel.app) · [API](https://skillswap-ai-api-production.up.railway.app) · [Docs](https://skillswap-ai-api-production.up.railway.app/docs)
 
 ---
 
