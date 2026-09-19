@@ -194,4 +194,4 @@ See [DECISIONS.md](./DECISIONS.md).
 
 ## License
 
-MIT — built for Smart India Hackathon Track 2.
+MIT — built for code2careers hackathon.
